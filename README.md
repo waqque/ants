@@ -47,35 +47,6 @@ Source Target Weight
 
 Реализует основной алгоритм муравьиной колонии.
 
-**Ключевые этапы:**
-
-python
-
-_\# Инициализация феромонов_
-
-pheromone = np.ones((n, n)) / n
-
-_\# Основной цикл алгоритма_
-
-for it in range(iterations):
-
-_\# Построение путей для каждого муравья_
-
-for ant in range(ants):
-
-_\# Вероятностный выбор следующего узла_
-
-next_node = np.random.choice(nodes, p=probs)
-
-_\# Обновление феромонов на лучшем пути_
-
-for i in range(len(best_path)-1):
-
-pheromone\[best_path\[i\]\]\[best_path\[i+1\]\] += 1.0 / best_dist
-
-_\# Испарение феромонов_
-
-pheromone \*= (1 - decay)
 
 # **Результаты**
 
