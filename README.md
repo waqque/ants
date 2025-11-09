@@ -34,9 +34,11 @@
 *  ` beta ` - влияние расстояния на выбор пути (по умолчанию: 2.0)
 
 # **Основные функции**
+
 ``` py
-read_graph(filename)**
+read_graph(filename)
 ```
+
 Читает граф из файла и создает матрицу расстояний.
 
 **Логика работы:**
@@ -45,8 +47,10 @@ read_graph(filename)**
 - Определение размера графа
 - Создание матрицы расстояний
 - Заполнение матрицы весами ребер
-
-**ant_algorithm(distances, ants, iterations, decay)**
+  
+``` py
+ant_algorithm(distances, ants, iterations, decay)
+```
 
 Реализует основной алгоритм муравьиной колонии.
 
@@ -62,7 +66,9 @@ read_graph(filename)**
 - Происходит испарение феромонов
 - Обновляются феромоны на лучшем пути
 
-**multiple_runs(filename, num_runs, ants, iterations)**
+``` py
+multiple_runs(filename, num_runs, ants, iterations)
+```
 
 Запускает алгоритм несколько раз для поиска наилучшего решения.
 
