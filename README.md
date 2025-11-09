@@ -80,4 +80,4 @@
 2.  **Длина пути от итераций** - демонстрирует улучшение качества решения
 
 # **Пример графика на тестовом файле(20.txt)**
-![alt text]([https://github.com/waqque/ants/blob/main/Снимок%20экрана%202025-11-09%20213145.png](https://github.com/waqque/ants/blob/main/Снимок%20экрана%202025-11-09%20231402.png)?raw=true)
+![alt text](https://github.com/waqque/ants/blob/main/Снимок%20экрана%202025-11-09%20231402.png?raw=true)
