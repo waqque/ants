@@ -2,7 +2,7 @@
 
 # **Формат входного файла(txt)**
 
-Source Target Weight
+(Source Target Weight)
 
 0 1 10
 
